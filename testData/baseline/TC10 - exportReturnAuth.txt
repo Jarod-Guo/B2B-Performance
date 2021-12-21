@@ -1,0 +1,22 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing">
+   <env:Header>
+   </env:Header>
+   <env:Body>
+      <exportReturnAuth xmlns="http://returns.api.hubsoft.com" xmlns:ns0="http://returns.api.hubsoft.com">
+         <ns0:serviceConfig>
+            <ns0:entry>
+               <ns0:key>access.key</ns0:key>
+               <ns0:value>2AL9q2vo66</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+               <ns0:key>returnStatus</ns0:key>
+               <ns0:value>AP</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+               <ns0:key>includeBlankReturnNumber</ns0:key>
+               <ns0:value>Y</ns0:value>
+            </ns0:entry>
+         </ns0:serviceConfig>
+      </exportReturnAuth>
+   </env:Body>
+</env:Envelope>

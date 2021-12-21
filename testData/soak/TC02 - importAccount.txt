@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:wsa="http://www.w3.org/2005/08/addressing">
+   <env:Header>
+   </env:Header>
+   <env:Body>
+      <importAccount xmlns="http://v3.integration.api.hubsoft.com"
+                     xmlns:tns="http://v3.integration.api.hubsoft.com">
+         <tns:accountList>
+            <ns7:AccountDTO xmlns:ns7="http://request.v3.integration.api.hubsoft.com">
+               <ns7:address>
+                  <ns7:countryCode>US</ns7:countryCode>
+               </ns7:address>
+               <ns7:addtlBillToList>
+                  <ns7:AddtlAddressDTO>
+                     <ns7:city>PALM BEACH</ns7:city>
+                     <ns7:countryCode>US</ns7:countryCode>
+                     <ns7:name>BT1_1356676_UGG</ns7:name>
+                     <ns7:postalCode>33480</ns7:postalCode>
+                     <ns7:stateCode>FL</ns7:stateCode>
+                     <ns7:street1>PO BOX 910146031</ns7:street1>
+                     <ns7:street2/>
+                  </ns7:AddtlAddressDTO>
+               </ns7:addtlBillToList>
+               <ns7:billingTermCode>1157</ns7:billingTermCode>
+               <ns7:buyerList>
+                  <ns7:BuyerDTO>
+                     <ns7:contact>
+                        <ns7:firstName>BREAKERS, THE</ns7:firstName>
+                     </ns7:contact>
+                     <ns7:referenceCode>ERP:-3-1356676-UGG</ns7:referenceCode>
+                     <ns7:repCode>ERP:-3</ns7:repCode>
+                  </ns7:BuyerDTO>
+               </ns7:buyerList>
+               <ns7:code>1356676-UGG</ns7:code>
+               <ns7:contact>
+                  <ns7:firstName>BREAKERS, THE</ns7:firstName>
+               </ns7:contact>
+               <ns7:copyNotesToOrder>Y</ns7:copyNotesToOrder>
+               <ns7:defaultPriceBook/>
+               <ns7:name>BREAKERS, THE</ns7:name>
+               <ns7:notes/>
+               <ns7:priorityCode>A</ns7:priorityCode>
+               <ns7:priorityName>A</ns7:priorityName>
+               <ns7:statusCode>A</ns7:statusCode>
+               <ns7:storeList/>
+               <ns7:typeCode>1080</ns7:typeCode>
+            </ns7:AccountDTO>
+         </tns:accountList>
+         <tns:serviceConfig>
+            <tns:entry>
+               <tns:key>access.key</tns:key>
+               <tns:value>cjyfzkIkq4</tns:value>
+            </tns:entry>
+            <tns:entry>
+               <tns:key>SetBuyerInactive</tns:key>
+               <tns:value>N</tns:value>
+            </tns:entry>
+            <tns:entry>
+               <tns:key>AssignAllPriceBookToDealerPriorities</tns:key>
+               <tns:value>A</tns:value>
+            </tns:entry>
+            <tns:entry>
+               <tns:key>doNotAssignPriceBookCode</tns:key>
+               <tns:value>6155,681121,291119</tns:value>
+            </tns:entry>
+            <tns:entry>
+               <tns:key>assignPriceBookMatchingPriority</tns:key>
+               <tns:value>Y</tns:value>
+            </tns:entry>
+            <tns:entry>
+               <tns:key>setBuyerInactive</tns:key>
+               <tns:value>N</tns:value>
+            </tns:entry>
+            <tns:entry>
+               <tns:key>UpdateDealerPriority</tns:key>
+               <tns:value>N</tns:value>
+            </tns:entry>
+         </tns:serviceConfig>
+      </importAccount>
+   </env:Body>
+</env:Envelope>

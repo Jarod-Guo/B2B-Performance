@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:wsa="http://www.w3.org/2005/08/addressing">
+   <env:Header/>
+   <env:Body>
+      <importReturnAuth xmlns="http://returns.api.hubsoft.com"
+                        xmlns:ns12="http://returns.api.hubsoft.com">
+         <ns12:returns>
+            <ns12:ReturnDTO xmlns:ns12="http://request.returns.api.hubsoft.com">
+               <ns12:accountCode>1358198-UGG</ns12:accountCode>
+               <ns12:currencyCode>USD</ns12:currencyCode>
+               <ns12:hubsoftNumber>RAUU-4739</ns12:hubsoftNumber>
+               <ns12:items>
+                  <ns12:ReturnItem>
+                     <ns12:returnPrice>46.75</ns12:returnPrice>
+                     <ns12:returnQty>1</ns12:returnQty>
+                     <ns12:returnReasonCode>DUP - 0010</ns12:returnReasonCode>
+                     <ns12:sku>1113455-CHE-13</ns12:sku>
+                     <ns12:upc>194715109605</ns12:upc>
+                  </ns12:ReturnItem>
+                  <ns12:ReturnItem>
+                     <ns12:returnPrice>46.75</ns12:returnPrice>
+                     <ns12:returnQty>1</ns12:returnQty>
+                     <ns12:returnReasonCode>DUP - 0010</ns12:returnReasonCode>
+                     <ns12:sku>1113455-CHE-08</ns12:sku>
+                     <ns12:upc>194715109520</ns12:upc>
+                  </ns12:ReturnItem>
+                  <ns12:ReturnItem>
+                     <ns12:returnPrice>46.75</ns12:returnPrice>
+                     <ns12:returnQty>2</ns12:returnQty>
+                     <ns12:returnReasonCode>DUP - 0010</ns12:returnReasonCode>
+                     <ns12:sku>1113455-CHE-09</ns12:sku>
+                     <ns12:upc>194715109537</ns12:upc>
+                  </ns12:ReturnItem>
+                  <ns12:ReturnItem>
+                     <ns12:returnPrice>46.75</ns12:returnPrice>
+                     <ns12:returnQty>3</ns12:returnQty>
+                     <ns12:returnReasonCode>DUP - 0010</ns12:returnReasonCode>
+                     <ns12:sku>1113455-CHE-10</ns12:sku>
+                     <ns12:upc>194715109575</ns12:upc>
+                  </ns12:ReturnItem>
+                  <ns12:ReturnItem>
+                     <ns12:returnPrice>46.75</ns12:returnPrice>
+                     <ns12:returnQty>3</ns12:returnQty>
+                     <ns12:returnReasonCode>DUP - 0010</ns12:returnReasonCode>
+                     <ns12:sku>1113455-CHE-11</ns12:sku>
+                     <ns12:upc>194715109582</ns12:upc>
+                  </ns12:ReturnItem>
+                  <ns12:ReturnItem>
+                     <ns12:returnPrice>46.75</ns12:returnPrice>
+                     <ns12:returnQty>2</ns12:returnQty>
+                     <ns12:returnReasonCode>DUP - 0010</ns12:returnReasonCode>
+                     <ns12:sku>1113455-CHE-12</ns12:sku>
+                     <ns12:upc>194715109599</ns12:upc>
+                  </ns12:ReturnItem>
+               </ns12:items>
+               <ns12:purchaseOrderNumber>825459RTV</ns12:purchaseOrderNumber>
+               <ns12:requestedByUserCode>admin</ns12:requestedByUserCode>
+               <ns12:returnInvoiceNum>31122906
+,
+            31122960</ns12:returnInvoiceNum>
+               <ns12:returnNumber>13238624</ns12:returnNumber>
+               <ns12:returnStatusCode>CL</ns12:returnStatusCode>
+               <ns12:returnNotes>QA7777</ns12:returnNotes>
+               <ns12:returnTypeCode>R</ns12:returnTypeCode>
+               <ns12:salesRepCode>7216</ns12:salesRepCode>
+               <ns12:storeCode>ERP:84033782</ns12:storeCode>
+               <ns12:warehouseCode>UGG-US-ALL OTHER</ns12:warehouseCode>
+            </ns12:ReturnDTO>
+         </ns12:returns>
+         <ns12:serviceConfig>
+            <ns12:entry>
+               <ns12:key>access.key</ns12:key>
+               <ns12:value>cjyfzkIkq4</ns12:value>
+            </ns12:entry>
+         </ns12:serviceConfig>
+      </importReturnAuth>
+   </env:Body>
+</env:Envelope>

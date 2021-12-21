@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:wsa="http://www.w3.org/2005/08/addressing">
+   <env:Header>
+      <wsa:To>https://dens.batch.prod.deckers.com:443/HubsoftIntegrationServices/IntegrationServicesV3Proxy</wsa:To>
+      <wsa:Action>http://v3.integration.api.hubsoft.com/IntegrationServiceV3PortType/importOrderInterfacedStatusRequest</wsa:Action>
+      <wsa:MessageID>urn:B2BFDAB0133E11EBBFB88FCCF06B72C2</wsa:MessageID>
+      <wsa:RelatesTo>urn:B2BFDAB0133E11EBBFB88FCCF06B72C2</wsa:RelatesTo>
+      <wsa:ReplyTo>
+         <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+         <wsa:ReferenceParameters>
+            <instra:tracking.ecid xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">78b2a36bffe6c23d:-2a011423:17516dcc598:-8000-000000000b263aba</instra:tracking.ecid>
+            <instra:tracking.conversationId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">urn:B2BFDAB0133E11EBBFB88FCCF06B72C2</instra:tracking.conversationId>
+            <instra:tracking.parentComponentInstanceId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">reference:769276593</instra:tracking.parentComponentInstanceId>
+            <instra:tracking.compositeInstanceCreatedTime xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">2020-10-20T18:37:05.009-07:00</instra:tracking.compositeInstanceCreatedTime>
+         </wsa:ReferenceParameters>
+      </wsa:ReplyTo>
+      <wsa:FaultTo>
+         <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+         <wsa:ReferenceParameters>
+            <instra:tracking.ecid xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">78b2a36bffe6c23d:-2a011423:17516dcc598:-8000-000000000b263aba</instra:tracking.ecid>
+            <instra:tracking.conversationId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">urn:B2BFDAB0133E11EBBFB88FCCF06B72C2</instra:tracking.conversationId>
+            <instra:tracking.parentComponentInstanceId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">reference:769276593</instra:tracking.parentComponentInstanceId>
+            <instra:tracking.compositeInstanceCreatedTime xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">2020-10-20T18:37:05.009-07:00</instra:tracking.compositeInstanceCreatedTime>
+         </wsa:ReferenceParameters>
+      </wsa:FaultTo>
+   </env:Header>
+   <env:Body>
+      <importOrderInterfacedStatus xmlns="http://v3.integration.api.hubsoft.com"
+                                   xmlns:hs="http://v3.integration.api.hubsoft.com">
+         <hs:statusList>
+            <ns7:OrderInterfacedStatusDTO xmlns:ns7="http://dto.webservice.docean.deckers.com">
+               <ns7:isInterfacedFlag>Y</ns7:isInterfacedFlag>
+               <ns7:orderYumber>UU-1278859</ns7:orderYumber>
+            </ns7:OrderInterfacedStatusDTO>
+         </hs:statusList>
+         <hs:serviceConfig>
+            <hs:entry>
+               <hs:key>access.key</hs:key>
+               <hs:value>cjyfzkIkq4</hs:value>
+            </hs:entry>
+         </hs:serviceConfig>
+      </importOrderInterfacedStatus>
+   </env:Body>
+</env:Envelope>

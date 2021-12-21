@@ -1,0 +1,26 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing">
+   <env:Header>
+   </env:Header>
+   <env:Body>
+      <exportDealerOrders xmlns="http://v3.integration.api.hubsoft.com" xmlns:ns0="http://v3.integration.api.hubsoft.com">
+         <ns0:serviceConfig>
+            <ns0:entry>
+               <ns0:key>access.key</ns0:key>
+               <ns0:value>cjyfzkIkq4</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+               <ns0:key>orderStatus</ns0:key>
+               <ns0:value>OP</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+               <ns0:key>existRemoteOrderNumber</ns0:key>
+               <ns0:value>Y</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+               <ns0:key>hubsoftOrderNumber</ns0:key>
+               <ns0:value>UU-1317580</ns0:value>
+            </ns0:entry>                   
+         </ns0:serviceConfig>
+      </exportDealerOrders>
+   </env:Body>
+</env:Envelope>

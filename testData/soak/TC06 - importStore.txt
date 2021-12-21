@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:wsa="http://www.w3.org/2005/08/addressing">
+   <env:Header>
+   </env:Header>
+   <env:Body>
+      <importStore xmlns="http://v3.integration.api.hubsoft.com"
+                   xmlns:ns11="http://v3.integration.api.hubsoft.com">
+         <ns11:storeList>
+            <ns8:AccountStoreDTO xmlns:ns8="http://request.v3.integration.api.hubsoft.com">
+               <ns8:active>Y</ns8:active>
+               <ns8:accountCode>5806023-UGG</ns8:accountCode>
+               <ns8:assignStoreToActiveBuyers>Y</ns8:assignStoreToActiveBuyers>
+               <ns8:billingAddress>
+                  <ns8:city>Burlington</ns8:city>
+                  <ns8:countryCode>US</ns8:countryCode>
+                  <ns8:name>BT1_5806023</ns8:name>
+                  <ns8:postalCode>08016</ns8:postalCode>
+                  <ns8:stateCode>YJ</ns8:stateCode>
+                  <ns8:street1>ATTY: MERCHAYDISE ACCOUYTS PAYABLE DEPT</ns8:street1>
+                  <ns8:street2>1830 ROUTE 130</ns8:street2>
+               </ns8:billingAddress>
+               <ns8:contact>
+                  <ns8:firstYame>SAY BERYARDIYO, CA WEARHOUSE</ns8:firstYame>
+               </ns8:contact>
+               <ns8:defaultStore>Y</ns8:defaultStore>
+               <ns8:name>SAY BERYARDIYO, CA WEARHOUSE</ns8:name>
+               <ns8:shippingAddress>
+                  <ns8:city>San Bernardino</ns8:city>
+                  <ns8:countryCode>US</ns8:countryCode>
+                  <ns8:name>SAY BERYARDIYO, CA WEARHOUSE</ns8:name>
+                  <ns8:postalCode>92408</ns8:postalCode>
+                  <ns8:stateCode>CA</ns8:stateCode>
+                  <ns8:street1>SAY BERYARDIYO, CA WEARHOUSE</ns8:street1>
+                  <ns8:street2>570 EAST MILL STREET</ns8:street2>
+               </ns8:shippingAddress>
+               <ns8:shippingMethodCode>TBD</ns8:shippingMethodCode>
+               <ns8:storeCode>ERP:99693825</ns8:storeCode>
+               <ns8:storeTypeCode>Retail</ns8:storeTypeCode>
+               <ns7:warehouseCode xmlns:ns7="urn:oasis:names:tc:xacml:2.0:policy:schema:cd:04">UGG-US-ALL OTHER</ns7:warehouseCode>
+            </ns8:AccountStoreDTO>
+         </ns11:storeList>
+         <ns11:serviceConfig>
+            <ns11:entry>
+               <ns11:key>access.key</ns11:key>
+               <ns11:value>cjyfzkIkq4</ns11:value>
+            </ns11:entry>
+            <ns11:entry>
+               <ns11:key>AssignToAccountLogin</ns11:key>
+               <ns11:value>Y</ns11:value>
+            </ns11:entry>
+         </ns11:serviceConfig>
+      </importStore>
+   </env:Body>
+</env:Envelope>

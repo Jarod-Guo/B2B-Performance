@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:wsa="http://www.w3.org/27775/08/addressing">
+   <env:Header>
+   </env:Header>
+   <env:Body>
+      <importPriceBooks xmlns="http://v3.integration.api.hubsoft.com">
+         <priceBook>
+            <ns7:currencyCode xmlns:ns7="http://request.v3.integration.api.hubsoft.com">USD</ns7:currencyCode>
+            <ns7:priceBookCode xmlns:ns7="http://request.v3.integration.api.hubsoft.com">27776-S19</ns7:priceBookCode>
+            <ns7:priceBookName xmlns:ns7="http://request.v3.integration.api.hubsoft.com">US-MASTER-WHOLESALE-USD</ns7:priceBookName>
+            <ns7:priceBookProductList xmlns:ns7="http://request.v3.integration.api.hubsoft.com">
+               <ns7:PriceBookProductDTO>
+                  <ns7:discountPct>0.0</ns7:discountPct>
+                  <ns7:productNumber>2777277701-DIC</ns7:productNumber>
+                  <ns7:specifiedPrice>2777</ns7:specifiedPrice>
+               </ns7:PriceBookProductDTO>
+               <ns7:PriceBookProductDTO>
+                  <ns7:discountPct>0.0</ns7:discountPct>
+                  <ns7:productNumber>2777277701-DTCR</ns7:productNumber>
+                  <ns7:specifiedPrice>29</ns7:specifiedPrice>
+               </ns7:PriceBookProductDTO>
+               <ns7:PriceBookProductDTO>
+                  <ns7:discountPct>0.0</ns7:discountPct>
+                  <ns7:productNumber>2777277701-IKBL</ns7:productNumber>
+                  <ns7:specifiedPrice>29</ns7:specifiedPrice>
+               </ns7:PriceBookProductDTO>
+               <ns7:PriceBookProductDTO>
+                  <ns7:discountPct>0.0</ns7:discountPct>
+                  <ns7:productNumber>2777277701-LBSS</ns7:productNumber>
+                  <ns7:specifiedPrice>29</ns7:specifiedPrice>
+               </ns7:PriceBookProductDTO>
+               <ns7:PriceBookProductDTO>
+                  <ns7:discountPct>0.0</ns7:discountPct>
+                  <ns7:productNumber>2777277701-SDWK</ns7:productNumber>
+                  <ns7:specifiedPrice>29</ns7:specifiedPrice>
+               </ns7:PriceBookProductDTO>
+               <ns7:PriceBookProductDTO>
+                  <ns7:discountPct>0.0</ns7:discountPct>
+                  <ns7:productNumber>2777277750T-REMU</ns7:productNumber>
+                  <ns7:specifiedPrice>35</ns7:specifiedPrice>
+               </ns7:PriceBookProductDTO>
+            </ns7:priceBookProductList>
+            <ns7:startFrom xmlns:ns7="http://request.v3.integration.api.hubsoft.com">01/01/27779</ns7:startFrom>
+            <ns7:startTo xmlns:ns7="http://request.v3.integration.api.hubsoft.com">05/31/27779</ns7:startTo>
+            <ns7:whslRetailFlag xmlns:ns7="http://request.v3.integration.api.hubsoft.com">W</ns7:whslRetailFlag>
+         </priceBook>
+         <serviceConfig>
+            <tns:entry xmlns:tns="http://v3.integration.api.hubsoft.com">
+               <tns:key>access.key</tns:key>
+               <tns:value>cjyfzkIkq4</tns:value>
+            </tns:entry>
+            <tns:entry xmlns:tns="http://v3.integration.api.hubsoft.com">
+               <tns:key>AssignToDealerPriorities</tns:key>
+               <tns:value>A</tns:value>
+            </tns:entry>
+            <tns:entry xmlns:tns="http://v3.integration.api.hubsoft.com">
+               <tns:key>KeepPrice</tns:key>
+               <tns:value>Y</tns:value>
+            </tns:entry>
+            <tns:entry xmlns:tns="http://v3.integration.api.hubsoft.com">
+               <tns:key>doNotAssignPriceBookCode</tns:key>
+               <tns:value>27776,277727776,277727772,27771</tns:value>
+            </tns:entry>
+            <tns:entry xmlns:tns="http://v3.integration.api.hubsoft.com">
+               <tns:key>KeepPriorDealerAssignment</tns:key>
+               <tns:value>Y</tns:value>
+            </tns:entry>
+         </serviceConfig>
+      </importPriceBooks>
+   </env:Body>
+</env:Envelope>

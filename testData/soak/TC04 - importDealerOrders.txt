@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:wsa="http://www.w3.org/2005/08/addressing">
+   <env:Header/>
+   <env:Body>
+      <importDealerOrders xmlns="http://v3.integration.api.hubsoft.com"
+                          xmlns:ns10="http://v3.integration.api.hubsoft.com">
+         <ns10:orderList>
+            <ns7:DealerOrderDTO xmlns:ns7="http://request.v3.integration.api.hubsoft.com">
+               <ns7:accountCode>1997-UGG</ns7:accountCode>
+               <ns7:accountName>DILLARDS</ns7:accountName>
+               <ns7:billingTermCode>2001</ns7:billingTermCode>
+               <ns7:buyerEmail/>
+               <ns7:buyerFirstName/>
+               <ns7:buyerLastName/>
+               <ns7:buyerPhone/>
+               <ns7:cancelDate>11/04/2020</ns7:cancelDate>
+               <ns7:creditStatusCode>-</ns7:creditStatusCode>
+               <ns7:currencyCode>USD</ns7:currencyCode>
+               <ns7:hubsoftOrderNumber/>
+               <ns7:incentiveCode>-</ns7:incentiveCode>
+               <ns7:orderDateTime>10/22/2020</ns7:orderDateTime>
+               <ns7:orderStatusCode>OH</ns7:orderStatusCode>
+               <ns7:orderStoreList>
+                  <ns7:OrderStoreDTO>
+                     <ns7:billingAddress>
+                        <ns7:city>Little Rock</ns7:city>
+                        <ns7:countryCode>US</ns7:countryCode>
+                        <ns7:postalCode>72203</ns7:postalCode>
+                        <ns7:name>BT1_1997_UGG</ns7:name>
+                        <ns7:stateCode>AR</ns7:stateCode>
+                        <ns7:street1>ATTN: INVOICE OFFICE</ns7:street1>
+                        <ns7:street2>POST OFFICE BOX 8037</ns7:street2>
+                     </ns7:billingAddress>
+                     <ns7:freightTermCode>CC</ns7:freightTermCode>
+                     <ns7:orderItemList>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>1</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-CRH-XS</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>13</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-SPHH-XS</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>4</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-SPHH-L</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>11</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-SPHH-M</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>14</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-GRHE-XS</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>2</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-GRHE-L</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>12</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-GRHE-M</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>5</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1103683-CRH-M</ns7:sku>
+                           <ns7:unitPrice>59.2</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                     </ns7:orderItemList>
+                     <ns7:shipmentList>
+                        <ns7:ShipmentInfo>
+                           <ns7:shipCost>0</ns7:shipCost>
+                           <ns7:shipDate/>
+                           <ns7:shippingMethodCode/>
+                           <ns7:trackingNumber>QA34912</ns7:trackingNumber>
+                        </ns7:ShipmentInfo>
+                     </ns7:shipmentList>
+                     <ns7:shippingAddress>
+                        <ns7:city>Gilbert</ns7:city>
+                        <ns7:countryCode>US</ns7:countryCode>
+                        <ns7:postalCode>85233</ns7:postalCode>
+                        <ns7:name>THE MEADOWS MALL</ns7:name>
+                        <ns7:stateCode>AZ</ns7:stateCode>
+                        <ns7:street1>396 NORTH WILLIAM DILLARD DR.</ns7:street1>
+                        <ns7:street2/>
+                     </ns7:shippingAddress>
+                     <ns7:shippingMethodCode>000001_DCKZ_L_LTL</ns7:shippingMethodCode>
+                     <ns7:storeCode>ERP:87291687</ns7:storeCode>
+                     <ns7:storeName>THE MEADOWS MALL</ns7:storeName>
+                  </ns7:OrderStoreDTO>
+               </ns7:orderStoreList>
+               <ns7:orderTypeCode>Inseason Wholesale - US</ns7:orderTypeCode>
+               <ns7:priceBookCode>Pricelist</ns7:priceBookCode>
+               <ns7:planToShipDate>10/28/2020</ns7:planToShipDate>
+               <ns7:purchaseOrderNumber>0098093301</ns7:purchaseOrderNumber>
+               <ns7:remoteOrderNumber>75787788</ns7:remoteOrderNumber>
+               <ns7:remoteLastModifiedDt/>
+               <ns7:repCode>10649</ns7:repCode>
+               <ns7:seasonCode>F20</ns7:seasonCode>
+               <ns7:sourceCode>WS</ns7:sourceCode>
+               <ns7:startDate>10/28/2020</ns7:startDate>
+            </ns7:DealerOrderDTO>
+            <ns7:DealerOrderDTO xmlns:ns7="http://request.v3.integration.api.hubsoft.com">
+               <ns7:accountCode>1997-UGG</ns7:accountCode>
+               <ns7:accountName>DILLARDS</ns7:accountName>
+               <ns7:billingTermCode>2001</ns7:billingTermCode>
+               <ns7:buyerEmail/>
+               <ns7:buyerFirstName/>
+               <ns7:buyerLastName/>
+               <ns7:buyerPhone/>
+               <ns7:cancelDate>11/04/2020</ns7:cancelDate>
+               <ns7:creditStatusCode>-</ns7:creditStatusCode>
+               <ns7:currencyCode>USD</ns7:currencyCode>
+               <ns7:hubsoftOrderNumber/>
+               <ns7:incentiveCode>-</ns7:incentiveCode>
+               <ns7:orderDateTime>10/22/2020</ns7:orderDateTime>
+               <ns7:orderStatusCode>OP</ns7:orderStatusCode>
+               <ns7:orderStoreList>
+                  <ns7:OrderStoreDTO>
+                     <ns7:billingAddress>
+                        <ns7:city>Little Rock</ns7:city>
+                        <ns7:countryCode>US</ns7:countryCode>
+                        <ns7:postalCode>72203</ns7:postalCode>
+                        <ns7:name>BT1_1997_UGG</ns7:name>
+                        <ns7:stateCode>AR</ns7:stateCode>
+                        <ns7:street1>ATTN: INVOICE OFFICE</ns7:street1>
+                        <ns7:street2>POST OFFICE BOX 8037</ns7:street2>
+                     </ns7:billingAddress>
+                     <ns7:freightTermCode>CC</ns7:freightTermCode>
+                     <ns7:orderItemList>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-CHRC-L</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-CHRC-M</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-CHRC-S</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-DUS-XL</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-DUS-L</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-DUS-M</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-DUS-S</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                        <ns7:OrderItemDTO>
+                           <ns7:assignedRepCode>7012</ns7:assignedRepCode>
+                           <ns7:itemStatus>Planned: 10/28/2020</ns7:itemStatus>
+                           <ns7:cancelledQty>0</ns7:cancelledQty>
+                           <ns7:orderedQty>7</ns7:orderedQty>
+                           <ns7:salesTax>0.00</ns7:salesTax>
+                           <ns7:shippedQty>0</ns7:shippedQty>
+                           <ns7:sku>1099130-CHRC-XL</ns7:sku>
+                           <ns7:unitPrice>58</ns7:unitPrice>
+                        </ns7:OrderItemDTO>
+                     </ns7:orderItemList>
+                     <ns7:shipmentList>
+                        <ns7:ShipmentInfo>
+                           <ns7:shipCost>0</ns7:shipCost>
+                           <ns7:shipDate/>
+                           <ns7:shippingMethodCode/>
+                           <ns7:trackingNumber/>
+                        </ns7:ShipmentInfo>
+                     </ns7:shipmentList>
+                     <ns7:shippingAddress>
+                        <ns7:city>Gilbert</ns7:city>
+                        <ns7:countryCode>US</ns7:countryCode>
+                        <ns7:postalCode>85233</ns7:postalCode>
+                        <ns7:name>THE MEADOWS MALL</ns7:name>
+                        <ns7:stateCode>AZ</ns7:stateCode>
+                        <ns7:street1>396 NORTH WILLIAM DILLARD DR.</ns7:street1>
+                        <ns7:street2/>
+                     </ns7:shippingAddress>
+                     <ns7:shippingMethodCode>000001_DCKZ_L_LTL</ns7:shippingMethodCode>
+                     <ns7:storeCode>ERP:87291687</ns7:storeCode>
+                     <ns7:storeName>THE MEADOWS MALL</ns7:storeName>
+                  </ns7:OrderStoreDTO>
+               </ns7:orderStoreList>
+               <ns7:orderTypeCode>Inseason Wholesale - US</ns7:orderTypeCode>
+               <ns7:priceBookCode>Pricelist</ns7:priceBookCode>
+               <ns7:planToShipDate>10/28/2020</ns7:planToShipDate>
+               <ns7:purchaseOrderNumber>0098092703</ns7:purchaseOrderNumber>
+               <ns7:remoteOrderNumber>75787789</ns7:remoteOrderNumber>
+               <ns7:remoteLastModifiedDt/>
+               <ns7:repCode>10649</ns7:repCode>
+               <ns7:seasonCode>F20</ns7:seasonCode>
+               <ns7:sourceCode>WS</ns7:sourceCode>
+               <ns7:startDate>10/28/2020</ns7:startDate>
+            </ns7:DealerOrderDTO>
+         </ns10:orderList>
+         <ns10:serviceConfig>
+            <ns10:entry>
+               <ns10:key>access.key</ns10:key>
+               <ns10:value>cjyfzkIkq4</ns10:value>
+            </ns10:entry>
+            <ns10:entry>
+               <ns10:key>updateSeason</ns10:key>
+               <ns10:value>N</ns10:value>
+            </ns10:entry>
+            <ns10:entry>
+               <ns10:key>allowNoStoreCode</ns10:key>
+               <ns10:value>Y</ns10:value>
+            </ns10:entry>
+            <ns10:entry>
+               <ns10:key>checkInventory</ns10:key>
+               <ns10:value>N</ns10:value>
+            </ns10:entry>
+         </ns10:serviceConfig>
+      </importDealerOrders>
+   </env:Body>
+</env:Envelope>
